@@ -8,3 +8,161 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@media screen and (max-width: 768px) {
+    
+    body {
+        font-family: "Poppins";
+        width: 100vw;
+    }
+    nav, header{
+        background-color: #540B51;
+        padding-top: 5%;
+    }
+
+    nav {
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+   
+    #slack-logo {
+        width: 25%;
+        margin-left: 5%;
+    }
+
+    #mobile-navigation {
+        display: none;
+    }
+
+    .icons {
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+        background-color: #540B51;
+    }
+
+    .icons-image {
+        background-color: #540B51;
+        border: none;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 10vw;
+    }
+
+    header > div > p {
+        color: white;
+        text-align: center;
+        font-size: 3vw;
+    }
+    header > div > p > span {
+        color: #ECB12F;
+    }
+
+    #buttons-size {
+        margin: auto;
+        width: 95vw;
+        padding-bottom: 5%;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90vw;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 2%;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    #button-blue {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 23vw;
+        background-color: #4285F4;
+        padding: 0;
+        color: white;
+    } 
+
+    #google-img {
+        width: 5%;
+        background-color: white;
+        padding: 1%;
+        margin: 1%;
+    }
+
+    #hero-container {
+        overflow: hidden; 
+    }
+    #hero-img {
+        width: 150%;
+    }
+
+    #logos-section{
+        background-color: #F3EAE2;
+        padding: 5%;
+
+    }
+    .trusted-text {
+        text-align: center;
+        font-size: 4vw;
+        text-transform: uppercase;
+        font-weight: bold;
+    } 
+    
+    #logos {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .logos-img {
+        width: 15vw;  
+    }
+
+    .logos-img5 {
+        width: 40vw;
+    }
+
+    .logos-img6 {
+        width: 30vw;
+    }
+
+    #connected-img, #speed-img {
+        width: 95%;
+    }
+
+    .ligther-background {
+        background-color: #F3EAE2;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    #flexibility-img {
+        width: 95%;
+    }
+
+    h2 {
+        font-size: 6vw;
+        width: 80%;
+        margin-left: 5%;
+        /*font-weight: bolder; why don't work?*/ 
+    }
+    
+    .information-text {
+        margin-left: 5%;
+        font-size: 4vw;
+        text-align: justify;
+        width: 80%;
+    }
+
+    
+}
